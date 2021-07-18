@@ -10,20 +10,49 @@ const mythirdVar = 10
 console.log('mythirdVar=', mythirdVar) //не перезаписуется
 
 // Primitives
-console.log('Vladimir Proshyn')
-console.log(typeof 'Vladimir Proshyn')
+let string 
 
-console.log(1284)
-console.log(typeof 1284)
+//STRING
+string = 'Vladimir Proshyn'
+console.log(string)
+console.log('What type of=', typeof string)
 
-console.log(undefined)
-console.log(typeof undefined)
+//NUMBER
+let number = 1284
+console.log(number)
+console.log('What type of=', typeof number)
 
-console.log(null)
-console.log(typeof null)
+number = 2e53
+console.log(number)
+console.log('What type of=', typeof number)
 
-console.log(true)
-console.log(typeof true)
+number = Infinity
+console.log(number)
+console.log('What type of=', typeof number)
+
+number = NaN
+console.log(number)
+console.log('What type of=', typeof number)
+
+//BOOLEAN(true || false)
+let isComing = true
+console.log(isComing)
+console.log('What type of=', typeof isComing)
+
+isComing = false
+console.log(isComing)
+console.log('What type of=', typeof isComing)
+
+//UNDEFINED
+let message
+console.log(message)
+console.log('What type of=', typeof message)
+
+//NULL
+let user = null
+console.log(user)
+console.log('What type of=', typeof user)
+
 
 //Приведение типов данных
 let value
